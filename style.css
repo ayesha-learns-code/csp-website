@@ -1,0 +1,660 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  font-size:1.25em;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header style */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navigation links style */
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content area */
+main {
+  padding: 20px;
+}
+
+/* College banner */
+.college-banner {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #003366;
+}
+
+.college-logo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.college-info {
+  color: #222;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.college-info h2 {
+  color: darkred;
+  margin-bottom: 5px;
+}
+
+.college-info p {
+  margin: 0;
+  color: #004080;
+}
+
+/* Main banner */
+.main-banner {
+  background-image: url("images/college-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-banner h1 {
+  font-size: 50px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.main-banner h1 .orange {
+  color: #ff7300;
+}
+
+.main-banner p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.join-btn {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.join-btn:hover {
+  background-color: #003366;
+}
+
+.college-name {
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.unit-text {
+  color: #222;
+  font-size: 14px;
+}
+
+.details-text {
+  color: #004080;
+  font-size: 13px;
+  margin: 2px 0;
+}
+
+.unit-name {
+  color:#222;
+  font-size: 14px;
+}
+
+.blue-details {
+  color: #003366;
+  font-size: 13px;
+  margin: 2px 0;
+}
+
+/* Centered banner */
+.college-banner.centered-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  text-align: center;
+  border-bottom: 2px solid #003366;
+}
+
+.college-info h2.college-name {
+  color: darkred;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.college-info .black-text {
+  color: #222;
+  font-weight: bold;
+}
+
+.college-info .blue-text {
+  color: #003366;
+}
+
+/* College header */
+.college-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.college-logo {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.college-text {
+  max-width: 800px;
+}
+
+.college-text h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.college-text h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color:#222;
+  font-weight: normal;
+  text-align: center;
+}
+
+.college-text p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #003366;
+  text-align: center;
+  line-height: 2;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+ font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  font-weight: bold;
+  color:#003366;
+}
+
+/* Body and navbar text */
+body,
+p,
+a,
+li {
+font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+/* Global font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: "Times New Roman", Times, serif;
+  font-size:1.25em;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  background-color: #003366;
+  padding: 10px;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.navbar li.highlight a {
+  background-color: #004080;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Default background */
+body {
+  background-color: #f5f7fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Page backgrounds */
+#home-page {
+  background-image: url("homebackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#index-page {
+  background-image: url("images/college-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+table th,
+table td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #003366;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #eef2f7;
+}
+
+table tr:hover {
+  background-color: #dce6f5;
+}
+
+/* Activity Log Table */
+.activity-log-table {
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.activity-log-table th,
+.activity-log-table td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: center;
+}
+
+.activity-log-table th {
+  background-color: #003366;
+  color: white;
+}
+
+.activity-log-table tr:nth-child(even) {
+  background-color: #eef2f7;
+}
+
+.activity-log-table tr:hover {
+  background-color: #dce6f5;
+}
+
+/* Google form */
+.google-form-container {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.google-form-container h2 {
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+/* Activity container */
+.activity-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.activity-container h2 {
+  font-size: 30px;
+  color: #003366;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.activity-container table {
+  width: 90%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+}
+
+.activity-container th,
+.activity-container td {
+  border: 1px solid #ddd;
+  padding: 12px 18px;
+  text-align: left;
+}
+
+.activity-container th {
+  background-color: #003366;
+  color: white;
+  font-weight: 600;
+}
+
+.activity-container tr:nth-child(even) {
+  background-color: #eef2f7;
+}
+
+/* Gallery */
+.gallery img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Survey gallery */
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.survey-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.survey-gallery img {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.survey-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Content grid */
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #eee;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+  header {
+    padding: 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 20px;
+  }
+}
+/* ✅ Responsive Navbar with Hamburger Menu */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003366;
+  padding: 10px;
+  position: relative;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  text-decoration: underline;
+}
+
+/* Hamburger button */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #003366;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+
+  .navbar ul.show {
+    display: flex;
+  }
+
+  .navbar ul li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+/* ===== Gallery Styling ===== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3 per row on large screens */
+  gap: 20px;
+  padding: 40px;
+  justify-items: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px; /* keeps them even */
+  height: 230px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on tablets */
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr; /* 1 per row on mobile */
+  }
+}
+/* ==== Navbar Styling ==== */
+.navbar {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+}
+
+/* ==== Hamburger Button ==== */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 8px;
+}
+
+/* ==== Responsive Styles ==== */
+@media (max-width: 900px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
